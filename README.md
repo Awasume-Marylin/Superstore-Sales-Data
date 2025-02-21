@@ -2,6 +2,7 @@
 ### Superstore Sales Data has 3 datasets which include Orders, Returns, and People.
 ---
 ### Table of contents
+---
 
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
@@ -17,20 +18,20 @@
 This project analysis is aimed at gaining insights on sales in different regions and the highest selling category. Through this insights i will be able to discover trends and make data driven decisions and also give recommendation.
  ![alt](https://github.com/Awasume-Marylin/Superstore-Sales-Data/blob/48fef12876fd652828aff5fb24e792bd71080056/Output/Total_profit.png)
  
- ## Data Sources
+ ### Data Sources
  
 The datasets used for this analysis came from the SUPERSTORE_SALES.csv file which contains information of the different categories of products, the regions and their managers.
 
- ## Tools
+ ### Tools
  - Microsoft Excel - For data cleaning
  - Big Query - For analysis
- - 
- ## Data Cleaning Preparations
+   
+ ### Data Cleaning Preparations
  1. Sorted data by profit
  2. Filtered to show only furniture category sales
  3. Changed data type of date using text to columns
 
-## Exploratory Analysis
+### Exploratory Analysis
 
 It involved exploring and manipulating the data of the superstore to answer the following;
 - A cleaned dataset with standardized dates.
@@ -39,7 +40,7 @@ It involved exploring and manipulating the data of the superstore to answer the 
   - Total profit and average margin.
   - Furniture sales and regional return rates
     
- ## Data Analysis
+ ### Data Analysis
  Includes some interesting commands like;
  ```sql
 SELECT
@@ -48,7 +49,7 @@ SELECT
 FROM superstore.orders_dataset
 GROUP BY Region
 ```
-## Findings
+### Findings
 
 From my analysisi, i made the following findings 
 - The total profit made by each region
@@ -56,7 +57,7 @@ From my analysisi, i made the following findings
 - The highest selling category
 - Total orders that where returned in the regions
 
-## Recommendations
+### Recommendations
 
 Based on my analysis i would recommend the following;
 -  Sales promotion and discounts in regions where there is low profit to maximize sales
@@ -64,7 +65,7 @@ Based on my analysis i would recommend the following;
 -  Enroll the managers of the regions who have low sales revenue in Sales bootcamps and trainings so that they can better 
   improve on their sales revenue and increase profit
 
-## References
+### References
 1. Tableau 
 
  
